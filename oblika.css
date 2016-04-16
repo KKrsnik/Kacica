@@ -1,0 +1,55 @@
+body {
+	background-image: url("ozadje.jpg");
+	background-position: top;
+	background-attachment: fixed;
+	background-color: black;
+	font-family: "Open Sans","Arial", sans-serif;
+}
+
+.glava {
+	margin-left: 10%;
+	width: 80%;
+	height: 20%;
+	float: left;
+	background: rgba(255, 100, 0, 0.8);
+	border-radius: 15px 15px 0px 0px;
+}
+
+.vsebina {
+	margin-left: 10%;
+	width: 80%;
+	float: left;
+	color: white;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.center {
+	text-align: center;
+	color: black;
+	font-size: 4em;
+}
+
+.end {
+	margin-left: 10%;
+	width: 80%;
+	height: 5%;
+	float: left;
+	background: rgba(255, 100, 0, 0.8);
+	border-radius: 0px 0px 15px 15px;
+}
+
+.copy {
+	text-align: center;
+	color: black;
+	margin: 1%;
+}
+
+canvas {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+	margin-bottom: 30px;
+  display: block;
+	border: 1px solid white;
+	background: rgb(0,0,0);
+}
